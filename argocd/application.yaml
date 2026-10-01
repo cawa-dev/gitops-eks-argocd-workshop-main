@@ -24,7 +24,7 @@ spec:
   source:
     # 👇 REMPLACEZ TOUTE l'URL par celle de VOTRE fork
     #    (page GitHub de votre fork → bouton « Code » → onglet HTTPS).
-    repoURL: https://github.com/<VOTRE-COMPTE>/<VOTRE-REPO>.git
+    repoURL: https://github.com/cawa-dev/gitops-eks-argocd-workshop-main.git
     targetRevision: main
     # Chemin du chart Helm dans le dépôt. ArgoCD détecte Helm via Chart.yaml.
     path: charts/podinfo
