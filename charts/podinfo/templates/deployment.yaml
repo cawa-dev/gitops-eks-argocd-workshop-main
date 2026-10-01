@@ -28,6 +28,11 @@ spec:
             limits:
               cpu: {{ .Values.resources.limits.cpu }}
               memory: {{ .Values.resources.limits.memory }}
+          env:
+            - name: PODINFO_UI_MESSAGE
+              value: "{{ .Values.ui.message }}"
+            - name: PODINFO_UI_COLOR
+              value: "{{ .Values.ui.color }}"
           livenessProbe:
             httpGet:
               path: /healthz

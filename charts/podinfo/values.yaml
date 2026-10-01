@@ -22,3 +22,7 @@ resources:
   limits:
     cpu: 200m
     memory: 128Mi
+
+ui:
+  message: "Bienvenue a l'atelier GitOps !"
+  color: "#d97706"
